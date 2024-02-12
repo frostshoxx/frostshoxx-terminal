@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frostshoxx-terminal", "frostshoxx-terminal\frostshoxx-terminal.csproj", "{2645D9D8-73F9-4F5D-8FCC-2CD8DA2C18EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frostshoxx.Terminal", "Frostshoxx.Terminal\Frostshoxx.Terminal.csproj", "{F5E805BF-071F-427D-B689-C0927FADEDE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2645D9D8-73F9-4F5D-8FCC-2CD8DA2C18EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2645D9D8-73F9-4F5D-8FCC-2CD8DA2C18EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2645D9D8-73F9-4F5D-8FCC-2CD8DA2C18EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2645D9D8-73F9-4F5D-8FCC-2CD8DA2C18EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5E805BF-071F-427D-B689-C0927FADEDE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5E805BF-071F-427D-B689-C0927FADEDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5E805BF-071F-427D-B689-C0927FADEDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5E805BF-071F-427D-B689-C0927FADEDE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
