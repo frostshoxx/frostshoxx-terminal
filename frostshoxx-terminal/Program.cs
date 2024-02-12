@@ -15,7 +15,7 @@ layout["Left"].Update(
     new Panel(
         Align.Center(
             new Markup("[blue]Welcome to Frostshoxx Terminal![/]"),
-            VerticalAlignment.Middle))
+            VerticalAlignment.Top))
         .Expand());
 
 // Update the top right column
@@ -23,14 +23,14 @@ layout["Top"].Update(
     new Panel(
         Align.Center(
             new Markup("[blue]Stock Market Tracker[/]"),
-            VerticalAlignment.Middle))
+            VerticalAlignment.Top))
         .Expand());
 
 layout["Bottom"].Update(
     new Panel(
         Align.Center(
             new Markup("[blue]Crypto Tracker[/]"),
-            VerticalAlignment.Middle))
+            VerticalAlignment.Top))
         .Expand());
 
 // Render the layout
