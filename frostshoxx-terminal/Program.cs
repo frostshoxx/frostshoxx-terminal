@@ -14,7 +14,22 @@ var layout = new Layout("Root")
 layout["Left"].Update(
     new Panel(
         Align.Center(
-            new Markup("Hello [blue]World![/]"),
+            new Markup("[blue]Welcome to Frostshoxx Terminal![/]"),
+            VerticalAlignment.Middle))
+        .Expand());
+
+// Update the top right column
+layout["Top"].Update(
+    new Panel(
+        Align.Center(
+            new Markup("[blue]Stock Market Tracker[/]"),
+            VerticalAlignment.Middle))
+        .Expand());
+
+layout["Bottom"].Update(
+    new Panel(
+        Align.Center(
+            new Markup("[blue]Crypto Tracker[/]"),
             VerticalAlignment.Middle))
         .Expand());
 
